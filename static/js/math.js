@@ -496,7 +496,7 @@ document.addEventListener('DOMContentLoaded', function() {
             questionTimer.stopTimer();
         }
         
-        questionTimer = initTimer(30, onTimeUp);
+        questionTimer = initTimer(60, onTimeUp);
         if (questionTimer) {
             questionTimer.startTimer();
         }
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Start quiz timer (5 minutes total)
     function startQuizTimer() {
-        let totalSeconds =1500; // 5 minutes
+        let totalSeconds =3000; // 5 minutes
         
         const updateTimerDisplay = () => {
             totalTimeElement.textContent = formatTime(totalSeconds);
