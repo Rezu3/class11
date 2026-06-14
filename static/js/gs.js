@@ -280,7 +280,7 @@ const gkQuestions = [
 
 
 
-
+ 
 // gk.js - General Knowledge Quiz Logic
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -541,7 +541,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Start quiz timer (5 minutes total)
     function startQuizTimer() {
-        let totalSeconds =3000; // 5 minutes
+        let totalSeconds =1500; // 5 minutes
         
         const updateTimerDisplay = () => {
             totalTimeElement.textContent = formatTime(totalSeconds);
